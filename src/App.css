@@ -1,0 +1,19 @@
+.d-flex {
+  display: flex;
+}
+
+.nav-container {
+  list-style: none;
+  justify-content: space-between;
+  width: 100%;
+  padding: 40px;
+}
+
+.nav-bar {
+  width: 100%;
+  justify-content: space-evenly;
+}
+
+.menu-item {
+  margin-right: 8px;
+}
