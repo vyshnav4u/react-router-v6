@@ -17,3 +17,10 @@
 .menu-item {
   margin-right: 8px;
 }
+
+.footer {
+  background: rgb(37, 37, 37);
+  color: #fff;
+  padding: 80px;
+  text-align: center;
+}

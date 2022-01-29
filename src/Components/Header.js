@@ -18,6 +18,9 @@ function Header() {
           <Link className="menu-item" to="/contact">
             Contact
           </Link>
+          <Link className="menu-item" to="/profile/vyshnav">
+            Profile
+          </Link>
         </li>
       </ul>
     </nav>

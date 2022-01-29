@@ -12,6 +12,8 @@ import {
   Route,
   Link,
 } from "react-router-dom";
+import Footer from "./Components/Footer";
+import Profile from "./Pages/Profile";
 
 function App() {
   return (
@@ -23,8 +25,10 @@ function App() {
         <Route path="/" element={<Home />}></Route>
         <Route path="/about" element={<About />}></Route>
         <Route path="/contact" element={<Contact />}></Route>
+        <Route path="/profile/:user" element={<Profile />}></Route>
         <Route path="*" element={<ErrorPage />}></Route>
       </Routes>
+      <Footer />
     </Router>
   );
 }
